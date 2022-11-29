@@ -28,6 +28,11 @@
                         bebas: ["Bebas Neue", "cursive"],
                         montserrat: ["Montserrat", "sans-serif"],
                     },
+                    backgroundImage: {
+                        banner: "url('./images/banner.jpg')",
+                        aboutimg: "url('./images/camera-man.jpg')",
+
+                    }
                 },
             },
         };
@@ -35,7 +40,98 @@
 </head>
 
 <body>
-    <h1 class="font-bebas"> Hello World</h1>
+    <!-- header section start here -->
+    <header class="">
+        <nav class="flex justify-between items-center px-6 md:px-24 lg:px-52 h-20  bg-white font-bebas absolute w-full">
+            <div>
+                <h1 class=" text-sm md:text-3xl uppercase "> Jhaka naka production</h1>
+            </div>
+            <div>
+                <ul class="flex text-sm md:text-lg gap-3 text-gray ">
+                    <li>about us</li>
+                    <li>our movies</li>
+                    <li>services</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- header section end here -->
+    <!-- main section start here  -->
+    <main>
+        <!-- banner section start here -->
+        <section class="bg-banner bg-cover bg-center h-screen pt-20 flex items-center">
+            <div class="ml-5 mr-5 md:ml-20 md:mr:20 lg:w-2/4">
+                <p class="uppercase text-white font-bebas">movie production studio</p>
+                <h1 class="uppercase  text-white font-bebas text-4xl md:text-7xl">flims made to </h1>
+                <h1 class="uppercase text-yellow font-bebas text-4xl md:text-7xl mb-5"> prefection </h1>
+                <p class="font-montserrat  text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    lorem
+                    ipsum dolor sit
+                    amet consectetur adipisicing elit. Culpa, eius!+</p>
+                <button
+                    class="uppercase text-white border-2 hover:bg-yellow hover:text-black hover:border-yellow p-3 ">Dicover
+                    more</button>
+            </div>
+        </section>
+        <!-- banner section end here -->
+        <!-- about section start here -->
+        <section class="  my-10 mx-5 lg:m-14 border-2 p-5">
+            <div>
+                <div class=" md:flex gap-10  ">
+                    <div
+                        class=" bg-aboutimg md:w-2/4 bg-cover bg-center h-[300px] lg:h-[450px] flex justify-center items-end ">
+                        <h1 class="uppercase font-bebas bg-white px-5 text-3xl rounded -mb-6 shadow-xl">23 years
+                            experince</h1>
+                    </div>
+                    <div class="md:w-2/4 mt-10 md:mt-0 ">
+                        <p class="uppercase text-black font-bebas ">about us</p>
+                        <h1 class="uppercase  text-black text-2xl md:text-4xl font-bold">fliming experince <br class="">
+                            just
+                            got
+                            better</h1>
+                        <p class="font-montserrat mb-5 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi dolore
+                            quisquam vero sapiente
+                            error deleniti molestias incidunt hic praesentium eos!</p>
+                        <button
+                            class=" mt-3 uppercase text-black border-2 hover:bg-yellow hover:text-black hover:border-yellow p-3 font-bebas ">Dicover
+                            more</button>
+
+                    </div>
+                </div>
+                <div class=" md:flex gap-10">
+                    <!-- 1st  -->
+                    <div class="mt-16">
+                        <hr class="border-2 mb-3">
+                        <h1 class="uppercase font-bebas text-3xl">our vision</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, reprehenderit? Ea, corporis
+                            aliquid. Soluta, autem.</p>
+                    </div>
+                    <!-- 2nd  -->
+                    <div class="mt-16">
+                        <hr class="border-2 mb-3">
+                        <h1 class="uppercase font-bebas text-3xl">our mission</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, reprehenderit? Ea, corporis
+                            aliquid. Soluta, autem.</p>
+                    </div>
+                    <!-- 3rd  -->
+                    <div class="mt-16">
+                        <hr class="border-2 mb-3">
+                        <h1 class="uppercase font-bebas text-3xl">our motto</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, reprehenderit? Ea, corporis
+                            aliquid. Soluta, autem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end here -->
+        <!-- movies colletion section start here  -->
+        <section>
+
+        </section>
+        <!-- movies colletion section end here  -->
+    </main>
+    <!-- main section end here -->
 </body>
 
 </html>
